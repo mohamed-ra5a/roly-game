@@ -97,6 +97,7 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_oprun"]
 
 [node name="Player" type="CharacterBody2D" unique_id=1614996040]
+collision_layer = 2
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=933241645]
 sprite_frames = SubResource("SpriteFrames_f1ej7")

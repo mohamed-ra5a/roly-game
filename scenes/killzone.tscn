@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://jcude452r61c"]
+
+[sub_resource type="GDScript" id="GDScript_csqde"]
+script/source = "extends Area2D
+
+
+func _on_body_entered(body: Node2D) -> void:
+	print(\"You died!\")
+"
+
+[node name="Killzone" type="Area2D" unique_id=1569965869]
+script = SubResource("GDScript_csqde")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
