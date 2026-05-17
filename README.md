@@ -1,9 +1,9 @@
-##Clabobo-game
+##roly-game 
 
 ##Project Image:<img width="578" height="326" alt="hh" src="https://github.com/user-attachments/assets/3c30bff9-cdce-498e-8373-482ccd55e4f6" />
 
 
-##Game-description: clabobo is a game where you have to move your character through a level. The main thing you have to do in Escape The Holes is get to the end of the level without falling into holes or touching one of the dangerous enemies.I made Escape The Holes using Godot Engine. It is a 2D platformer game.When you play Escape The Holes you can pick up coins that're all around the level. You have to jump and move around to get these coins. There are lots of platforms and things that can stop you.I made Escape The Holes and avoiding the enemies to help me learn about making 2D games. I wanted to learn more, about how characters move in games how they bump into things and how to make levels that're fun to play. I used Godot to learn about these things and to practice making games.
+##Game-description:roly is a game where you have to move your character through a level. The main thing you have to do in Escape The Holes is get to the end of the level without falling into holes or touching one of the dangerous enemies.I made Escape The Holes using Godot Engine. It is a 2D platformer game.When you play Escape The Holes you can pick up coins that're all around the level. You have to jump and move around to get these coins. There are lots of platforms and things that can stop you.I made Escape The Holes and avoiding the enemies to help me learn about making 2D games. I wanted to learn more, about how characters move in games how they bump into things and how to make levels that're fun to play. I used Godot to learn about these things and to practice making games.
 
 ##How To Play Controls Move Left / Right → Arrow Keys or left & right click Jump → Space Bar Objective Reach the end of the level Avoid falling into holes Collect coins while exploring the map
 
