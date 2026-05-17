@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://crdydhe66jvyk" path="res://scenes/player.tscn" id="2_4wyf3"]
 [ext_resource type="Script" uid="uid://b8wnnk5po3gbn" path="res://scripts/player.gd" id="3_4wyf3"]
 [ext_resource type="PackedScene" uid="uid://bnrj8js6c7ukc" path="res://scenes/platform.tscn" id="5_71j4m"]
-[ext_resource type="PackedScene" uid="uid://jcude452r61c" path="res://scenes/killzone.tscn" id="6_qfnet"]
+[ext_resource type="PackedScene" uid="uid://cndos1yf4ehka" path="res://scenes/killyzone.tscn" id="7_4mrxx"]
 [ext_resource type="PackedScene" uid="uid://dx6xg0ao5nkp4" path="res://scenes/coin.tscn" id="7_i7141"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k0juu"]
@@ -558,7 +558,7 @@ _data = {
 &"movy1": SubResource("Animation_q5onr")
 }
 
-[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_i7141"]
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_7r4gi"]
 
 [node name="World" type="Node2D" unique_id=642516457]
 position = Vector2(0, 36)
@@ -582,7 +582,7 @@ script = ExtResource("3_4wyf3")
 
 [node name="Camera2D2" type="Camera2D" parent="Player" unique_id=307537868]
 zoom = Vector2(2, 2)
-limit_bottom = 216
+limit_bottom = 300
 position_smoothing_enabled = true
 
 [node name="platform" parent="." unique_id=932169122 instance=ExtResource("5_71j4m")]
@@ -753,8 +753,8 @@ position = Vector2(9468, -284)
 [node name="Coin39" parent="Coins" unique_id=1364323774 instance=ExtResource("7_i7141")]
 position = Vector2(9034, -281)
 
-[node name="Killzone" parent="." unique_id=1582719001 instance=ExtResource("6_qfnet")]
-position = Vector2(172, 263)
+[node name="Killyzone" parent="." unique_id=273463408 instance=ExtResource("7_4mrxx")]
+position = Vector2(211, 233)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone" unique_id=512482113]
-shape = SubResource("WorldBoundaryShape2D_i7141")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killyzone" unique_id=1171751845]
+shape = SubResource("WorldBoundaryShape2D_7r4gi")
