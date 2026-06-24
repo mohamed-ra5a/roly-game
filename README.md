@@ -1,19 +1,53 @@
-##roly-game 
+# roly-game
 
-##Project Image:<img width="578" height="326" alt="hh" src="https://github.com/user-attachments/assets/3c30bff9-cdce-498e-8373-482ccd55e4f6" />
+## Project Image
 
+<img width="578" height="326" alt="hh" src="https://github.com/user-attachments/assets/3c30bff9-cdce-498e-8373-482ccd55e4f6" />
 
-##Game-description:roly is a game where you have to move your character through a level. The main thing you have to do in Escape The Holes is get to the end of the level without falling into holes or touching one of the dangerous enemies.I made Escape The Holes using Godot Engine. It is a 2D platformer game.When you play Escape The Holes you can pick up coins that're all around the level. You have to jump and move around to get these coins. There are lots of platforms and things that can stop you.I made Escape The Holes and avoiding the enemies to help me learn about making 2D games. I wanted to learn more, about how characters move in games how they bump into things and how to make levels that're fun to play. I used Godot to learn about these things and to practice making games.
+## Game Description
 
-##How To Play Controls Move Left / Right → Arrow Keys or left & right click Jump → Space Bar Objective Reach the end of the level Avoid falling into holes Collect coins while exploring the map
+Roly is a 2D platformer game where you must guide your character safely through a level. The main objective is to reach the end without falling into holes or touching dangerous enemies.
 
+The game was built using Godot Engine as a learning project to explore the fundamentals of 2D game development. Throughout the level, you can collect coins by jumping across platforms and navigating obstacles. Creating this project helped me practice player movement, collisions, physics, and level design while gaining hands-on experience with Godot.
 
-## playable url: "https://mohamed-ra5a.itch.io/rolygame"
+## How To Play
 
-##Technologies And Tools Used Godot Engine GDScript 2D Physics System
+### Controls
 
-##Features Basic 2D player movement Jump mechanics with gravity Coin collection Simple platform level design Obstacles and holes
+* **Move Left / Right:** Left and Right Arrow Keys
+* **Jump:** Space Bar
 
-##inspiration : The project was inspired by 2D platform games. You know, the ones where the player has to move through levels and avoid things that can hurt them. The goal is to reach the end of each level.
+### Objective
 
-I wanted to make a game to help me learn the basics of game development in Godot. I am talking about the basics, like how to make things move how to make sure they do not go through each other and how to create levels. The game is a way for me to practice these things, especially movement systems, collisions and level creation in Godot.
+* Reach the end of the level.
+* Avoid falling into holes.
+* Avoid dangerous enemies.
+* Collect coins while exploring the map.
+
+## Playable URL
+
+https://mohamed-ra5a.itch.io/rolygame
+
+## Technologies And Tools Used
+
+* Godot Engine
+* GDScript
+* 2D Physics System
+
+## Features
+
+* Basic 2D player movement
+* Jump mechanics with gravity
+* Coin collection
+* Simple platform level design
+* Obstacles and holes
+
+## Inspiration
+
+The project was inspired by 2D platform games where players move through levels while avoiding hazards and trying to reach the end.
+
+I created this game to learn the basics of game development in Godot, including movement systems, collisions, and level creation. It served as a practical way to improve my understanding of these core concepts.
+
+## Git Repository
+
+https://github.com/mohamed-ra5a/roly-game.git
